@@ -4,7 +4,7 @@ MultiDrive
 Required Notice: Copyright © 2026 Paulo Xytake (https://github.com/Xytake)
 
 LICENÇA
-O MultiDrive é licenciado sob a PolyForm Noncommercial License 1.0.0 (texto completo em LICENSE.md e em
+O MultiDrive é licenciado sob a PolyForm Noncommercial License 1.0.0 (texto completo em LICENSE.txt e em
 https://polyformproject.org/licenses/noncommercial/1.0.0). Em resumo:
   • Uso pessoal, sem fins comerciais: gratuito. Pode usar, estudar, MODIFICAR e compartilhar.
   • Quem compartilhar o programa, modificado ou não, deve manter este aviso de autor e a licença.
@@ -23,7 +23,7 @@ O MultiDrive usa, sem incluí-los, o rclone (licença MIT, https://rclone.org) e
 ----------------------------------------------------------------------------------------------------------
 ENGLISH
 © 2026 Paulo Xytake. All rights not granted by the license below are reserved.
-Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE.md). Personal, noncommercial use is free:
+Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE.txt). Personal, noncommercial use is free:
 you may use, study, MODIFY and share it, keeping this notice. Modified versions must always keep the credit to the
 original author, Paulo Xytake, and add the modifier's own credit stating what was changed and when. USE BY COMPANIES or any commercial use requires a
 paid license from the author. Selling MultiDrive or any part of its code is not allowed.
