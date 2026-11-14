@@ -47,18 +47,42 @@ E mais:
 
 ## Instalação fácil — sem terminal
 
-1. Baixe o arquivo **`MultiDrive-…-instalador.run`** em [Versões](https://github.com/Xytake/multidrive-atualizacoes/releases/latest).
-2. **Dois cliques** nele → **Executar**.
-3. Escolha as opções (atalho na área de trabalho, iniciar com o sistema) → **Instalar**.
+Baixe **um** dos arquivos abaixo em [**Versões (Releases)**](https://github.com/Xytake/multidrive-atualizacoes/releases/latest), de acordo com o seu Linux:
 
-Pronto: o MultiDrive aparece no menu de aplicativos. O instalador **não pede senha**, instala só para o seu
-usuário e baixa sozinho o que faltar. Feito para funcionar em CachyOS/Arch, Ubuntu, Debian, Mint, Fedora, openSUSE e outros.
+| Seu Linux | Baixe | Como instalar |
+|---|---|---|
+| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrive_…_amd64.deb` | Dois cliques no arquivo → abre o instalador do sistema → **Instalar** (pede a sua senha) |
+| **Fedora, openSUSE** | `multidrive-….x86_64.rpm` | Dois cliques no arquivo → abre o instalador do sistema (Programas / YaST) → **Instalar** |
+| **CachyOS, Arch, Manjaro, EndeavourOS** ou **qualquer outro** | `MultiDrive-…-instalador.run` | Dois cliques → **Executar** → escolha as opções → **Instalar** (não pede senha) |
 
-> Se os dois cliques abrirem o arquivo num editor de texto: botão direito nele → **Propriedades** → **Permissões**
-> → marque **“É executável”** e tente de novo. Ou, no terminal: `sh MultiDrive-…-instalador.run`
+**Na primeira vez que abrir**, o MultiDrive pode levar alguns minutos preparando o que falta (a biblioteca de janelas
+e o rclone) — aparece uma barra de progresso. Depois disso, abre na hora.
 
-**Atualizar:** o MultiDrive avisa quando houver versão nova — é só clicar em *Atualizar agora*.
-**Desinstalar:** botão direito no MultiDrive no menu de aplicativos → *Desinstalar o MultiDrive*.
+Pronto: o MultiDrive aparece no **menu de aplicativos**. Procure por “MultiDrive”.
+
+<details>
+<summary><b>Os dois cliques não funcionaram?</b></summary>
+
+- **Abriu num editor de texto (arquivo .run):** clique com o botão direito no arquivo → **Propriedades** →
+  **Permissões** → marque **“É executável”** / “Permitir executar como programa” → dois cliques de novo.
+- **No Ubuntu, o .run não abre com dois cliques:** botão direito no arquivo → **Executar como programa**.
+- **O .deb abriu no Gerenciador de arquivos compactados:** botão direito → **Abrir com** → **Instalação de programas**
+  (ou “Instalador de pacotes”).
+- **Pelo terminal (qualquer caso):**
+  - `.deb`: `sudo apt install ./multidrive_…_amd64.deb`
+  - `.rpm`: `sudo dnf install ./multidrive-….x86_64.rpm`
+  - `.run`: `sh MultiDrive-…-instalador.run`
+</details>
+
+**Atualizar:** o MultiDrive avisa quando houver versão nova — clique em **Atualizar agora**. (Se instalou por .deb ou
+.rpm, o sistema pede a sua senha.) Também dá para buscar na hora: botão **Buscar atualizações**.
+
+**Desinstalar:**
+- Instalou pelo **.run**: botão direito no MultiDrive no menu de aplicativos → **Desinstalar o MultiDrive**.
+- Instalou pelo **.deb** ou **.rpm**: pela loja/central de programas do sistema, ou no terminal
+  `sudo apt remove multidrive` / `sudo dnf remove multidrive`.
+
+Seus arquivos “neste PC” (pasta `~/MultiDrive`) nunca são apagados ao desinstalar.
 
 ## Privacidade
 
@@ -111,18 +135,41 @@ Plus:
 
 ## Easy install — no terminal
 
-1. Download **`MultiDrive-…-instalador.run`** from [Releases](https://github.com/Xytake/multidrive-atualizacoes/releases/latest).
-2. **Double-click** it → **Run**.
-3. Pick the options (desktop shortcut, start with the system) → **Install**.
+Download **one** of the files below from [**Releases**](https://github.com/Xytake/multidrive-atualizacoes/releases/latest), depending on your Linux:
 
-Done: MultiDrive shows up in your app menu. The installer **asks for no password**, installs for your user only
-and downloads whatever is missing. Made to work on CachyOS/Arch, Ubuntu, Debian, Mint, Fedora, openSUSE and others.
+| Your Linux | Download | How to install |
+|---|---|---|
+| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrive_…_amd64.deb` | Double-click it → the system installer opens → **Install** (asks for your password) |
+| **Fedora, openSUSE** | `multidrive-….x86_64.rpm` | Double-click it → the system installer opens (Software / YaST) → **Install** |
+| **CachyOS, Arch, Manjaro, EndeavourOS** or **anything else** | `MultiDrive-…-instalador.run` | Double-click → **Run** → pick the options → **Install** (no password) |
 
-> If double-clicking opens the file in a text editor: right-click it → **Properties** → **Permissions** → tick
-> **“Is executable”** and try again. Or, in a terminal: `sh MultiDrive-…-instalador.run`
+**The first time you open it**, MultiDrive may take a few minutes preparing what is missing (the window library and
+rclone) — a progress bar shows up. After that, it opens instantly.
 
-**Update:** MultiDrive tells you when a new version is out — just click *Atualizar agora* (Update now).
-**Uninstall:** right-click MultiDrive in the app menu → *Desinstalar o MultiDrive* (Uninstall).
+Done: MultiDrive shows up in your **app menu**. Search for “MultiDrive”.
+
+<details>
+<summary><b>Double-click didn't work?</b></summary>
+
+- **It opened in a text editor (.run file):** right-click the file → **Properties** → **Permissions** → tick
+  **“Is executable”** / “Allow executing as program” → double-click again.
+- **On Ubuntu, the .run doesn't open with a double-click:** right-click it → **Run as a Program**.
+- **The .deb opened in an archive manager:** right-click → **Open with** → **Software Install**.
+- **From a terminal (any case):**
+  - `.deb`: `sudo apt install ./multidrive_…_amd64.deb`
+  - `.rpm`: `sudo dnf install ./multidrive-….x86_64.rpm`
+  - `.run`: `sh MultiDrive-…-instalador.run`
+</details>
+
+**Update:** MultiDrive tells you when a new version is out — click **Atualizar agora** (Update now). (If you installed
+the .deb or .rpm, the system asks for your password.) You can also check right away: **Buscar atualizações** button.
+
+**Uninstall:**
+- Installed with the **.run**: right-click MultiDrive in the app menu → **Desinstalar o MultiDrive** (Uninstall).
+- Installed with the **.deb** or **.rpm**: from your system's software center, or in a terminal
+  `sudo apt remove multidrive` / `sudo dnf remove multidrive`.
+
+Your “on this PC” files (`~/MultiDrive` folder) are never deleted when uninstalling.
 
 > Note: the app's interface is currently in Brazilian Portuguese.
 
