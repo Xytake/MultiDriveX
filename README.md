@@ -1,6 +1,7 @@
 <p align="center"><img src="multidrive.svg" width="128" alt="Ícone do MultiDrive"></p>
 
 <h1 align="center">MultiDrive</h1>
+<p align="center">🇧🇷 Português · <a href="#-english">🇺🇸 English</a></p>
 <p align="center"><b>Dropbox, OneDrive e Google Drive num lugar só — no Linux, do jeito que funciona no Windows.</b></p>
 
 <p align="center"><a href="https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a></p>
@@ -66,6 +67,74 @@ de acesso, guardada **somente no seu computador**. Nada é enviado a servidores 
 
 ---
 
+<h1 align="center">🇺🇸 English</h1>
+<p align="center"><b>Dropbox, OneDrive and Google Drive in one place — on Linux, the way it works on Windows.</b></p>
+
+<p align="center"><a href="https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest"><b>⬇️ Download the latest version</b></a></p>
+
+## What it does
+
+MultiDrive brings **all your cloud accounts** — as many as you want, from Dropbox, OneDrive and Google Drive — into a
+single window, and right into your file manager (Dolphin, Files, Nemo…).
+
+You **see everything in the cloud without downloading anything** and choose what stays on your computer:
+
+- ☁️ **Cloud only** — shows up in the list but takes no space on your PC.
+- 🔵 **Downloaded for a while** — double-click opens the file; it leaves your PC on its own after a while unused.
+- ✅ **On this PC** — right-click → *Keep on this PC*: a pinned copy, synced both ways.
+- ↩️ **Cloud only again** — frees the space on your PC at once, without deleting anything from the cloud.
+
+## What makes it different
+
+On Linux, the free cloud apps each do **one thing**:
+
+| | Services | Without downloading everything | Own window | Multiple accounts | Free |
+|---|---|---|---|---|---|
+| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅** |
+| Official clients / OneDriveGUI | one service | ❌ sync the whole folder | ✅ | partial | ✅ |
+| onedriver, Maestral | one service | partial | partial | ❌ | ✅ |
+| KDE/GNOME integration | Google Drive only | ✅ | ❌ | ✅ | ✅ |
+| rclone | all | ✅ | ❌ terminal only | ✅ | ✅ |
+| Insync | several | partial | ✅ | ✅ | ❌ paid |
+
+Plus:
+
+- **Clouds in your file manager's sidebar**, with icons showing what is in the cloud and what is on your PC, and a
+  **MultiDrive** right-click menu.
+- **Thumbnails** of photos and videos straight from the cloud, without downloading the files.
+- **Search** in the folder and all its subfolders.
+- **Activity panel**: what is uploading and downloading, with progress, speed and time left.
+- **Mass-deletion protection** and **conflict copies** — nothing gets lost.
+- **Download and upload speed limits**, so it doesn't hog your internet.
+- Lives next to the clock, **starts with the system** and **updates itself**.
+- Built-in **user manual** (F1) — currently in Brazilian Portuguese.
+
+## Easy install — no terminal
+
+1. Download **`MultiDrive-…-instalador.run`** from [Releases](https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest).
+2. **Double-click** it → **Run**.
+3. Pick the options (desktop shortcut, start with the system) → **Install**.
+
+Done: MultiDrive shows up in your app menu. The installer **asks for no password**, installs for your user only
+and downloads whatever is missing. Made to work on CachyOS/Arch, Ubuntu, Debian, Mint, Fedora, openSUSE and others.
+
+> If double-clicking opens the file in a text editor: right-click it → **Properties** → **Permissions** → tick
+> **“Is executable”** and try again. Or, in a terminal: `sh MultiDrive-…-instalador.run`
+
+**Update:** MultiDrive tells you when a new version is out — just click *Atualizar agora* (Update now).
+**Uninstall:** right-click MultiDrive in the app menu → *Desinstalar o MultiDrive* (Uninstall).
+
+> Note: the app's interface is currently in Brazilian Portuguese.
+
+## Privacy
+
+Your password stays with the service (you sign in on its official website). MultiDrive only receives an access
+authorization, stored **only on your computer**. Nothing is sent to third-party servers.
+
+---
+
 <p align="center">© 2026 Paulo Xytake — Todos os direitos reservados.<br>
 Uso gratuito. Não é permitido copiar, modificar, redistribuir ou vender o programa sem autorização do autor.<br>
-Usa o <a href="https://rclone.org">rclone</a> (MIT) e o <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3), baixados das fontes oficiais.</p>
+Usa o <a href="https://rclone.org">rclone</a> (MIT) e o <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3), baixados das fontes oficiais.<br><br>
+© 2026 Paulo Xytake — All rights reserved. Free to use. Copying, modifying, redistributing or selling the program
+without the author's written permission is not allowed.</p>
