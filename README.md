@@ -1,16 +1,16 @@
-<p align="center"><img src="multidrive.svg" width="128" alt="Ícone do MultiDrive"></p>
+<p align="center"><img src="multidrive.svg" width="128" alt="Ícone do MultiDriveX"></p>
 
-<h1 align="center">MultiDrive</h1>
+<h1 align="center">MultiDriveX</h1>
 <p align="center">🇧🇷 Português · <a href="#-english">🇺🇸 English</a></p>
 <p align="center"><b>Dropbox, OneDrive e Google Drive num lugar só — no Linux, do jeito que funciona no Windows.</b></p>
 
-<p align="center"><a href="https://github.com/Xytake/multidrive-atualizacoes/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a></p>
+<p align="center"><a href="https://github.com/Xytake/MultiDriveX/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a></p>
 
 ---
 
 ## Para que serve
 
-O MultiDrive junta **todas as suas contas de nuvem** — quantas quiser, de Dropbox, OneDrive e Google Drive — numa
+O MultiDriveX junta **todas as suas contas de nuvem** — quantas quiser, de Dropbox, OneDrive e Google Drive — numa
 janela só, e também direto no gerenciador de arquivos (Dolphin, Arquivos, Nemo…).
 
 Você **vê tudo o que está na nuvem sem baixar nada** e escolhe o que quer no computador:
@@ -26,7 +26,7 @@ No Linux, os aplicativos gratuitos de nuvem fazem **uma coisa só**:
 
 | | Serviços | Sem baixar tudo | Janela própria | Várias contas | Grátis |
 |---|---|---|---|---|---|
-| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ uso pessoal** |
+| **MultiDriveX** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ uso pessoal** |
 | Clientes oficiais / OneDriveGUI | um serviço só | ❌ baixam a pasta inteira | ✅ | parcial | ✅ |
 | onedriver, Maestral | um serviço só | parcial | parcial | ❌ | ✅ |
 | Integração do KDE/GNOME | só Google Drive | ✅ | ❌ | ✅ | ✅ |
@@ -36,7 +36,7 @@ No Linux, os aplicativos gratuitos de nuvem fazem **uma coisa só**:
 E mais:
 
 - **Nuvens na lateral do gerenciador de arquivos**, com ícones mostrando o que está na nuvem e o que está no PC,
-  e um menu **MultiDrive** no clique direito.
+  e um menu **MultiDriveX** no clique direito.
 - **Miniaturas** de fotos e vídeos vindas da própria nuvem, sem baixar os arquivos.
 - **Pesquisa** na pasta e em todas as subpastas.
 - **Painel de atividade**: o que está subindo e descendo, com andamento, velocidade e tempo restante.
@@ -47,18 +47,18 @@ E mais:
 
 ## Instalação fácil — sem terminal
 
-Baixe **um** dos arquivos abaixo em [**Versões (Releases)**](https://github.com/Xytake/multidrive-atualizacoes/releases/latest), de acordo com o seu Linux:
+Baixe **um** dos arquivos abaixo em [**Versões (Releases)**](https://github.com/Xytake/MultiDriveX/releases/latest), de acordo com o seu Linux:
 
 | Seu Linux | Baixe | Como instalar |
 |---|---|---|
-| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrive_…_amd64.deb` | Dois cliques no arquivo → abre o instalador do sistema → **Instalar** (pede a sua senha) |
-| **Fedora, openSUSE** | `multidrive-….x86_64.rpm` | Dois cliques no arquivo → abre o instalador do sistema (Programas / YaST) → **Instalar** |
-| **CachyOS, Arch, Manjaro, EndeavourOS** ou **qualquer outro** | `MultiDrive-…-instalador.run` | Dois cliques → **Executar** → escolha as opções → **Instalar** (não pede senha) |
+| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrivex_…_amd64.deb` | Dois cliques no arquivo → abre o instalador do sistema → **Instalar** (pede a sua senha) |
+| **Fedora, openSUSE** | `multidrivex-….x86_64.rpm` | Dois cliques no arquivo → abre o instalador do sistema (Programas / YaST) → **Instalar** |
+| **CachyOS, Arch, Manjaro, EndeavourOS** ou **qualquer outro** | `MultiDriveX-…-instalador.run` | Dois cliques → **Executar** → escolha as opções → **Instalar** (não pede senha) |
 
-**Na primeira vez que abrir**, o MultiDrive pode levar alguns minutos preparando o que falta (a biblioteca de janelas
+**Na primeira vez que abrir**, o MultiDriveX pode levar alguns minutos preparando o que falta (a biblioteca de janelas
 e o rclone) — aparece uma barra de progresso. Depois disso, abre na hora.
 
-Pronto: o MultiDrive aparece no **menu de aplicativos**. Procure por “MultiDrive”.
+Pronto: o MultiDriveX aparece no **menu de aplicativos**. Procure por “MultiDriveX”.
 
 <details>
 <summary><b>Os dois cliques não funcionaram?</b></summary>
@@ -69,24 +69,24 @@ Pronto: o MultiDrive aparece no **menu de aplicativos**. Procure por “MultiDri
 - **O .deb abriu no Gerenciador de arquivos compactados:** botão direito → **Abrir com** → **Instalação de programas**
   (ou “Instalador de pacotes”).
 - **Pelo terminal (qualquer caso):**
-  - `.deb`: `sudo apt install ./multidrive_…_amd64.deb`
-  - `.rpm`: `sudo dnf install ./multidrive-….x86_64.rpm`
-  - `.run`: `sh MultiDrive-…-instalador.run`
+  - `.deb`: `sudo apt install ./multidrivex_…_amd64.deb`
+  - `.rpm`: `sudo dnf install ./multidrivex-….x86_64.rpm`
+  - `.run`: `sh MultiDriveX-…-instalador.run`
 </details>
 
-**Atualizar:** o MultiDrive avisa quando houver versão nova — clique em **Atualizar agora**. (Se instalou por .deb ou
+**Atualizar:** o MultiDriveX avisa quando houver versão nova — clique em **Atualizar agora**. (Se instalou por .deb ou
 .rpm, o sistema pede a sua senha.) Também dá para buscar na hora: botão **Buscar atualizações**.
 
 **Desinstalar:**
-- Instalou pelo **.run**: botão direito no MultiDrive no menu de aplicativos → **Desinstalar o MultiDrive**.
+- Instalou pelo **.run**: botão direito no MultiDriveX no menu de aplicativos → **Desinstalar o MultiDriveX**.
 - Instalou pelo **.deb** ou **.rpm**: pela loja/central de programas do sistema, ou no terminal
-  `sudo apt remove multidrive` / `sudo dnf remove multidrive`.
+  `sudo apt remove multidrivex` / `sudo dnf remove multidrivex`.
 
 Seus arquivos “neste PC” (pasta `~/MultiDrive`) nunca são apagados ao desinstalar.
 
 ## Privacidade
 
-Sua senha fica só com o serviço (o login é feito no site oficial dele). O MultiDrive recebe apenas uma autorização
+Sua senha fica só com o serviço (o login é feito no site oficial dele). O MultiDriveX recebe apenas uma autorização
 de acesso, guardada **somente no seu computador**. Nada é enviado a servidores de terceiros.
 
 ---
@@ -94,11 +94,11 @@ de acesso, guardada **somente no seu computador**. Nada é enviado a servidores 
 <h1 align="center">🇺🇸 English</h1>
 <p align="center"><b>Dropbox, OneDrive and Google Drive in one place — on Linux, the way it works on Windows.</b></p>
 
-<p align="center"><a href="https://github.com/Xytake/multidrive-atualizacoes/releases/latest"><b>⬇️ Download the latest version</b></a></p>
+<p align="center"><a href="https://github.com/Xytake/MultiDriveX/releases/latest"><b>⬇️ Download the latest version</b></a></p>
 
 ## What it does
 
-MultiDrive brings **all your cloud accounts** — as many as you want, from Dropbox, OneDrive and Google Drive — into a
+MultiDriveX brings **all your cloud accounts** — as many as you want, from Dropbox, OneDrive and Google Drive — into a
 single window, and right into your file manager (Dolphin, Files, Nemo…).
 
 You **see everything in the cloud without downloading anything** and choose what stays on your computer:
@@ -114,7 +114,7 @@ On Linux, the free cloud apps each do **one thing**:
 
 | | Services | Without downloading everything | Own window | Multiple accounts | Free |
 |---|---|---|---|---|---|
-| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ personal use** |
+| **MultiDriveX** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ personal use** |
 | Official clients / OneDriveGUI | one service | ❌ sync the whole folder | ✅ | partial | ✅ |
 | onedriver, Maestral | one service | partial | partial | ❌ | ✅ |
 | KDE/GNOME integration | Google Drive only | ✅ | ❌ | ✅ | ✅ |
@@ -124,7 +124,7 @@ On Linux, the free cloud apps each do **one thing**:
 Plus:
 
 - **Clouds in your file manager's sidebar**, with icons showing what is in the cloud and what is on your PC, and a
-  **MultiDrive** right-click menu.
+  **MultiDriveX** right-click menu.
 - **Thumbnails** of photos and videos straight from the cloud, without downloading the files.
 - **Search** in the folder and all its subfolders.
 - **Activity panel**: what is uploading and downloading, with progress, speed and time left.
@@ -135,18 +135,18 @@ Plus:
 
 ## Easy install — no terminal
 
-Download **one** of the files below from [**Releases**](https://github.com/Xytake/multidrive-atualizacoes/releases/latest), depending on your Linux:
+Download **one** of the files below from [**Releases**](https://github.com/Xytake/MultiDriveX/releases/latest), depending on your Linux:
 
 | Your Linux | Download | How to install |
 |---|---|---|
-| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrive_…_amd64.deb` | Double-click it → the system installer opens → **Install** (asks for your password) |
-| **Fedora, openSUSE** | `multidrive-….x86_64.rpm` | Double-click it → the system installer opens (Software / YaST) → **Install** |
-| **CachyOS, Arch, Manjaro, EndeavourOS** or **anything else** | `MultiDrive-…-instalador.run` | Double-click → **Run** → pick the options → **Install** (no password) |
+| **Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin, elementary** | `multidrivex_…_amd64.deb` | Double-click it → the system installer opens → **Install** (asks for your password) |
+| **Fedora, openSUSE** | `multidrivex-….x86_64.rpm` | Double-click it → the system installer opens (Software / YaST) → **Install** |
+| **CachyOS, Arch, Manjaro, EndeavourOS** or **anything else** | `MultiDriveX-…-instalador.run` | Double-click → **Run** → pick the options → **Install** (no password) |
 
-**The first time you open it**, MultiDrive may take a few minutes preparing what is missing (the window library and
+**The first time you open it**, MultiDriveX may take a few minutes preparing what is missing (the window library and
 rclone) — a progress bar shows up. After that, it opens instantly.
 
-Done: MultiDrive shows up in your **app menu**. Search for “MultiDrive”.
+Done: MultiDriveX shows up in your **app menu**. Search for “MultiDriveX”.
 
 <details>
 <summary><b>Double-click didn't work?</b></summary>
@@ -156,18 +156,18 @@ Done: MultiDrive shows up in your **app menu**. Search for “MultiDrive”.
 - **On Ubuntu, the .run doesn't open with a double-click:** right-click it → **Run as a Program**.
 - **The .deb opened in an archive manager:** right-click → **Open with** → **Software Install**.
 - **From a terminal (any case):**
-  - `.deb`: `sudo apt install ./multidrive_…_amd64.deb`
-  - `.rpm`: `sudo dnf install ./multidrive-….x86_64.rpm`
-  - `.run`: `sh MultiDrive-…-instalador.run`
+  - `.deb`: `sudo apt install ./multidrivex_…_amd64.deb`
+  - `.rpm`: `sudo dnf install ./multidrivex-….x86_64.rpm`
+  - `.run`: `sh MultiDriveX-…-instalador.run`
 </details>
 
-**Update:** MultiDrive tells you when a new version is out — click **Atualizar agora** (Update now). (If you installed
+**Update:** MultiDriveX tells you when a new version is out — click **Atualizar agora** (Update now). (If you installed
 the .deb or .rpm, the system asks for your password.) You can also check right away: **Buscar atualizações** button.
 
 **Uninstall:**
-- Installed with the **.run**: right-click MultiDrive in the app menu → **Desinstalar o MultiDrive** (Uninstall).
+- Installed with the **.run**: right-click MultiDriveX in the app menu → **Desinstalar o MultiDriveX** (Uninstall).
 - Installed with the **.deb** or **.rpm**: from your system's software center, or in a terminal
-  `sudo apt remove multidrive` / `sudo dnf remove multidrive`.
+  `sudo apt remove multidrivex` / `sudo dnf remove multidrivex`.
 
 Your “on this PC” files (`~/MultiDrive` folder) are never deleted when uninstalling.
 
@@ -175,7 +175,7 @@ Your “on this PC” files (`~/MultiDrive` folder) are never deleted when unins
 
 ## Privacy
 
-Your password stays with the service (you sign in on its official website). MultiDrive only receives an access
+Your password stays with the service (you sign in on its official website). MultiDriveX only receives an access
 authorization, stored **only on your computer**. Nothing is sent to third-party servers.
 
 ---
@@ -184,9 +184,9 @@ authorization, stored **only on your computer**. Nothing is sent to third-party 
 🇧🇷 <b>Uso pessoal gratuito</b> — pode usar, estudar, <b>modificar</b> e compartilhar sem fins comerciais.
 <b>Créditos:</b> o crédito a Paulo Xytake deve ser sempre mantido, e quem modificar acrescenta o próprio crédito dizendo o que alterou.
 <b>Empresas e uso comercial: licença paga</b> — fale com o autor pelo <a href="https://github.com/Xytake">GitHub</a>.
-<b>É proibido vender</b> o MultiDrive ou partes do código.<br>
+<b>É proibido vender</b> o MultiDriveX ou partes do código.<br>
 🇺🇸 <b>Free for personal use</b> — you may use, study, <b>modify</b> and share it for noncommercial purposes.
 <b>Credits:</b> the credit to Paulo Xytake must always be kept, and whoever modifies it adds their own credit stating what they changed.
 <b>Companies and commercial use: paid license</b> — contact the author on <a href="https://github.com/Xytake">GitHub</a>.
-<b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b>.<br><br>
+<b>Selling</b> MultiDriveX or any part of its code <b>is not allowed</b>.<br><br>
 Usa / uses <a href="https://rclone.org">rclone</a> (MIT) e/and <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3).</p>
