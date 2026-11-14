@@ -4,7 +4,7 @@
 <p align="center">🇧🇷 Português · <a href="#-english">🇺🇸 English</a></p>
 <p align="center"><b>Dropbox, OneDrive e Google Drive num lugar só — no Linux, do jeito que funciona no Windows.</b></p>
 
-<p align="center"><a href="https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a></p>
+<p align="center"><a href="https://github.com/Xytake/multidrive-atualizacoes/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a></p>
 
 ---
 
@@ -47,7 +47,7 @@ E mais:
 
 ## Instalação fácil — sem terminal
 
-1. Baixe o arquivo **`MultiDrive-…-instalador.run`** em [Versões](https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest).
+1. Baixe o arquivo **`MultiDrive-…-instalador.run`** em [Versões](https://github.com/Xytake/multidrive-atualizacoes/releases/latest).
 2. **Dois cliques** nele → **Executar**.
 3. Escolha as opções (atalho na área de trabalho, iniciar com o sistema) → **Instalar**.
 
@@ -70,7 +70,7 @@ de acesso, guardada **somente no seu computador**. Nada é enviado a servidores 
 <h1 align="center">🇺🇸 English</h1>
 <p align="center"><b>Dropbox, OneDrive and Google Drive in one place — on Linux, the way it works on Windows.</b></p>
 
-<p align="center"><a href="https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest"><b>⬇️ Download the latest version</b></a></p>
+<p align="center"><a href="https://github.com/Xytake/multidrive-atualizacoes/releases/latest"><b>⬇️ Download the latest version</b></a></p>
 
 ## What it does
 
@@ -111,7 +111,7 @@ Plus:
 
 ## Easy install — no terminal
 
-1. Download **`MultiDrive-…-instalador.run`** from [Releases](https://github.com/pauloxytake-pixel/multidrive-atualizacoes/releases/latest).
+1. Download **`MultiDrive-…-instalador.run`** from [Releases](https://github.com/Xytake/multidrive-atualizacoes/releases/latest).
 2. **Double-click** it → **Run**.
 3. Pick the options (desktop shortcut, start with the system) → **Install**.
 
@@ -136,10 +136,10 @@ authorization, stored **only on your computer**. Nothing is sent to third-party 
 <p align="center">© 2026 Paulo Xytake · <a href="LICENSE.md">PolyForm Noncommercial 1.0.0</a> · <a href="COPYRIGHT">resumo</a><br>
 🇧🇷 <b>Uso pessoal gratuito</b> — pode usar, estudar, <b>modificar</b> e compartilhar sem fins comerciais.
 <b>Créditos:</b> o crédito a Paulo Xytake deve ser sempre mantido, e quem modificar acrescenta o próprio crédito dizendo o que alterou.
-<b>Empresas e uso comercial: licença paga</b> — fale com o autor pelo <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
+<b>Empresas e uso comercial: licença paga</b> — fale com o autor pelo <a href="https://github.com/Xytake">GitHub</a>.
 <b>É proibido vender</b> o MultiDrive ou partes do código.<br>
 🇺🇸 <b>Free for personal use</b> — you may use, study, <b>modify</b> and share it for noncommercial purposes.
 <b>Credits:</b> the credit to Paulo Xytake must always be kept, and whoever modifies it adds their own credit stating what they changed.
-<b>Companies and commercial use: paid license</b> — contact the author on <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
+<b>Companies and commercial use: paid license</b> — contact the author on <a href="https://github.com/Xytake">GitHub</a>.
 <b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b>.<br><br>
 Usa / uses <a href="https://rclone.org">rclone</a> (MIT) e/and <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3).</p>

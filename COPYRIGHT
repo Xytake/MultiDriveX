@@ -1,7 +1,7 @@
 MultiDrive
 © 2026 Paulo Xytake. Todos os direitos não concedidos pela licença abaixo são reservados.
 
-Required Notice: Copyright © 2026 Paulo Xytake (https://github.com/pauloxytake-pixel)
+Required Notice: Copyright © 2026 Paulo Xytake (https://github.com/Xytake)
 
 LICENÇA
 O MultiDrive é licenciado sob a PolyForm Noncommercial License 1.0.0 (texto completo em LICENSE.md e em
@@ -15,7 +15,7 @@ https://polyformproject.org/licenses/noncommercial/1.0.0). Em resumo:
   • Não é permitido vender o MultiDrive, nem partes do seu código, nem usá-lo em produtos ou serviços pagos.
     A exploração comercial é exclusiva do autor.
 
-Licença comercial (empresas): fale com o autor pelo GitHub — https://github.com/pauloxytake-pixel
+Licença comercial (empresas): fale com o autor pelo GitHub — https://github.com/Xytake
 
 O MultiDrive usa, sem incluí-los, o rclone (licença MIT, https://rclone.org) e o Qt for Python / PySide6
 (licença LGPL v3, https://www.qt.io/qt-for-python), baixados das fontes oficiais.
@@ -27,4 +27,4 @@ Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE.md). Person
 you may use, study, MODIFY and share it, keeping this notice. Modified versions must always keep the credit to the
 original author, Paulo Xytake, and add the modifier's own credit stating what was changed and when. USE BY COMPANIES or any commercial use requires a
 paid license from the author. Selling MultiDrive or any part of its code is not allowed.
-Commercial licensing: contact the author on GitHub — https://github.com/pauloxytake-pixel
+Commercial licensing: contact the author on GitHub — https://github.com/Xytake
