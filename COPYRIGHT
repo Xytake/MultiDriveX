@@ -1,0 +1,9 @@
+MultiDrive
+© 2026 Paulo Xytake — Todos os direitos reservados.
+
+Este programa é protegido pela Lei de Direitos Autorais (Lei 9.610/98) e pela Lei do Software (Lei 9.609/98).
+É permitido baixar, instalar e usar o MultiDrive gratuitamente. Não é permitido copiar, modificar,
+redistribuir ou vender o programa, ou partes do seu código, sem autorização por escrito do autor.
+
+O MultiDrive usa, sem incluí-los, o rclone (licença MIT, https://rclone.org) e o Qt for Python / PySide6
+(licença LGPL v3, https://www.qt.io/qt-for-python), baixados das fontes oficiais.
