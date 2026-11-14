@@ -1,9 +1,31 @@
 MultiDrive
-© 2026 Paulo Xytake — Todos os direitos reservados.
+© 2026 Paulo Xytake. Todos os direitos não concedidos abaixo são reservados.
 
-Este programa é protegido pela Lei de Direitos Autorais (Lei 9.610/98) e pela Lei do Software (Lei 9.609/98).
-É permitido baixar, instalar e usar o MultiDrive gratuitamente. Não é permitido copiar, modificar,
-redistribuir ou vender o programa, ou partes do seu código, sem autorização por escrito do autor.
+Required Notice: Copyright © 2026 Paulo Xytake (https://github.com/pauloxytake-pixel)
+
+LICENÇA
+O MultiDrive é licenciado sob a PolyForm Noncommercial License 1.0.0 (texto completo em LICENSE.md e em
+https://polyformproject.org/licenses/noncommercial/1.0.0). Em resumo:
+  • Você pode usar, estudar, modificar e compartilhar o MultiDrive para fins NÃO comerciais.
+  • Quem compartilhar o programa, modificado ou não, deve manter este aviso de autor e a licença.
+  • Não é permitido vender o MultiDrive, nem partes do seu código, nem usá-lo em produtos ou serviços pagos.
+    A exploração comercial é exclusiva do autor.
+
+PERMISSÃO ADICIONAL DO AUTOR
+Além da licença acima, qualquer pessoa ou empresa pode baixar, instalar e usar o MultiDrive, sem modificações,
+para qualquer finalidade, inclusive no trabalho, gratuitamente. Esta permissão não inclui vender, revender,
+alugar ou cobrar pelo programa.
+
+Para uso comercial (venda, revenda, inclusão em produto ou serviço pago), fale com o autor.
 
 O MultiDrive usa, sem incluí-los, o rclone (licença MIT, https://rclone.org) e o Qt for Python / PySide6
 (licença LGPL v3, https://www.qt.io/qt-for-python), baixados das fontes oficiais.
+
+----------------------------------------------------------------------------------------------------------
+ENGLISH
+© 2026 Paulo Xytake. All rights not granted below are reserved.
+Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE.md). You may use, study, modify and share
+MultiDrive for noncommercial purposes, keeping this notice. Selling MultiDrive or any part of its code, or using
+it in paid products or services, is not allowed; commercial exploitation is reserved to the author.
+Additional permission: anyone, including companies, may download, install and use unmodified MultiDrive for any
+purpose, including at work, free of charge. This does not include selling, reselling, renting or charging for it.

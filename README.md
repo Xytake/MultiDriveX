@@ -133,8 +133,9 @@ authorization, stored **only on your computer**. Nothing is sent to third-party 
 
 ---
 
-<p align="center">© 2026 Paulo Xytake — Todos os direitos reservados.<br>
-Uso gratuito. Não é permitido copiar, modificar, redistribuir ou vender o programa sem autorização do autor.<br>
-Usa o <a href="https://rclone.org">rclone</a> (MIT) e o <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3), baixados das fontes oficiais.<br><br>
-© 2026 Paulo Xytake — All rights reserved. Free to use. Copying, modifying, redistributing or selling the program
-without the author's written permission is not allowed.</p>
+<p align="center">© 2026 Paulo Xytake · <a href="LICENSE.md">PolyForm Noncommercial 1.0.0</a> + <a href="COPYRIGHT">permissão adicional</a><br>
+🇧🇷 <b>Uso gratuito para todos, inclusive empresas.</b> Pode estudar, modificar e compartilhar sem fins comerciais, mantendo o crédito.
+<b>É proibido vender</b> o MultiDrive ou partes do código — a venda é exclusiva do autor.<br>
+🇺🇸 <b>Free to use for everyone, companies included.</b> You may study, modify and share it for noncommercial purposes, keeping the credit.
+<b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b> — selling is reserved to the author.<br><br>
+Usa / uses <a href="https://rclone.org">rclone</a> (MIT) e/and <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3).</p>
