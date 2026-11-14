@@ -134,10 +134,12 @@ authorization, stored **only on your computer**. Nothing is sent to third-party 
 ---
 
 <p align="center">© 2026 Paulo Xytake · <a href="LICENSE.md">PolyForm Noncommercial 1.0.0</a> · <a href="COPYRIGHT">resumo</a><br>
-🇧🇷 <b>Uso pessoal gratuito</b> — pode usar, estudar e compartilhar sem fins comerciais, mantendo o crédito.
+🇧🇷 <b>Uso pessoal gratuito</b> — pode usar, estudar, <b>modificar</b> e compartilhar sem fins comerciais.
+<b>Créditos:</b> o crédito a Paulo Xytake deve ser sempre mantido, e quem modificar acrescenta o próprio crédito dizendo o que alterou.
 <b>Empresas e uso comercial: licença paga</b> — fale com o autor pelo <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
 <b>É proibido vender</b> o MultiDrive ou partes do código.<br>
-🇺🇸 <b>Free for personal use</b> — you may use, study and share it for noncommercial purposes, keeping the credit.
+🇺🇸 <b>Free for personal use</b> — you may use, study, <b>modify</b> and share it for noncommercial purposes.
+<b>Credits:</b> the credit to Paulo Xytake must always be kept, and whoever modifies it adds their own credit stating what they changed.
 <b>Companies and commercial use: paid license</b> — contact the author on <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
 <b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b>.<br><br>
 Usa / uses <a href="https://rclone.org">rclone</a> (MIT) e/and <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3).</p>
