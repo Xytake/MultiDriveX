@@ -26,7 +26,7 @@ No Linux, os aplicativos gratuitos de nuvem fazem **uma coisa só**:
 
 | | Serviços | Sem baixar tudo | Janela própria | Várias contas | Grátis |
 |---|---|---|---|---|---|
-| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅** |
+| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ uso pessoal** |
 | Clientes oficiais / OneDriveGUI | um serviço só | ❌ baixam a pasta inteira | ✅ | parcial | ✅ |
 | onedriver, Maestral | um serviço só | parcial | parcial | ❌ | ✅ |
 | Integração do KDE/GNOME | só Google Drive | ✅ | ❌ | ✅ | ✅ |
@@ -90,7 +90,7 @@ On Linux, the free cloud apps each do **one thing**:
 
 | | Services | Without downloading everything | Own window | Multiple accounts | Free |
 |---|---|---|---|---|---|
-| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅** |
+| **MultiDrive** | **Dropbox + OneDrive + Google Drive** | **✅** | **✅** | **✅** | **✅ personal use** |
 | Official clients / OneDriveGUI | one service | ❌ sync the whole folder | ✅ | partial | ✅ |
 | onedriver, Maestral | one service | partial | partial | ❌ | ✅ |
 | KDE/GNOME integration | Google Drive only | ✅ | ❌ | ✅ | ✅ |
@@ -133,9 +133,11 @@ authorization, stored **only on your computer**. Nothing is sent to third-party 
 
 ---
 
-<p align="center">© 2026 Paulo Xytake · <a href="LICENSE.md">PolyForm Noncommercial 1.0.0</a> + <a href="COPYRIGHT">permissão adicional</a><br>
-🇧🇷 <b>Uso gratuito para todos, inclusive empresas.</b> Pode estudar, modificar e compartilhar sem fins comerciais, mantendo o crédito.
-<b>É proibido vender</b> o MultiDrive ou partes do código — a venda é exclusiva do autor.<br>
-🇺🇸 <b>Free to use for everyone, companies included.</b> You may study, modify and share it for noncommercial purposes, keeping the credit.
-<b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b> — selling is reserved to the author.<br><br>
+<p align="center">© 2026 Paulo Xytake · <a href="LICENSE.md">PolyForm Noncommercial 1.0.0</a> · <a href="COPYRIGHT">resumo</a><br>
+🇧🇷 <b>Uso pessoal gratuito</b> — pode usar, estudar e compartilhar sem fins comerciais, mantendo o crédito.
+<b>Empresas e uso comercial: licença paga</b> — fale com o autor pelo <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
+<b>É proibido vender</b> o MultiDrive ou partes do código.<br>
+🇺🇸 <b>Free for personal use</b> — you may use, study and share it for noncommercial purposes, keeping the credit.
+<b>Companies and commercial use: paid license</b> — contact the author on <a href="https://github.com/pauloxytake-pixel">GitHub</a>.
+<b>Selling</b> MultiDrive or any part of its code <b>is not allowed</b>.<br><br>
 Usa / uses <a href="https://rclone.org">rclone</a> (MIT) e/and <a href="https://www.qt.io/qt-for-python">Qt for Python</a> (LGPL v3).</p>
